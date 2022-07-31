@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/95b82b5343.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+</head>
+<body>
+        <nav id="navbar">
+        <h1>Get Weather Details</h1>
+        </nav>
+        <div id="section">
+    <div class="card load">
+        <div class="search">
+            <input type="text" placeholder="Search City" class="search-bar">
+            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="weather loading">
+            <h1 class="city">Weather in Noida</h1>
+            <h1 class="temp">51°C</h1>
+            <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04d.png" alt="" class="icon" />
+            <div class="description">Humidity: 60%</div>
+        </div>
+            <div class="humidity">Cloudy</div>
+            <div class="wind">Wind Speed: 6.2 km/h</div>
+        </div>
+    </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
